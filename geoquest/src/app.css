@@ -1,0 +1,30 @@
+:root {
+    --bg-color: #1e1e1e;
+    --text-color: #ffffff;
+    --highlight-color: #ffcc00;
+    --success-color: #4caf50;
+    --error-color: #f44336;
+    --neutral-color: #78909c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg-color);
+}
